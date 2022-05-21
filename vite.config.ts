@@ -13,7 +13,7 @@ export default defineConfig({
             // filepath: './.eslintrc-auto-import.json',
             globalsPropValue: true,
         },
-        dts: './auto-import.d.ts'
+        dts: 'src/auto-import.d.ts'
     })
 ]
 })
