@@ -76,7 +76,10 @@ interface haha{
     say():void
 }
 class myFunc implements haha{
-    name:'123',
+    name:string;
+    constructor(name:string){
+        this.name=name
+    }
     say(){}
 }
 // let num = computed(()=>store.state.num)
